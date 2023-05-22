@@ -1,0 +1,31 @@
+{
+  "name": "cmdline",
+  "version": "1.0.0",
+  "description": "Node.js addon for retrieving command line from a process ID in Windows",
+  "main": "index.js",
+  "scripts": {
+    "configure": "node-gyp configure --verbose",
+    "build": "node-gyp build",
+    "clean": "node-gyp clean",
+    "prebuild": "npm run clean && npm run configure",
+    "pretest": "npm run build",
+    "test": "node test.js"
+  },
+  "author": "zaciam",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^6.1.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
+  },
+  "homepage": "https://github.com/zaciam/cmdline",
+  "bugs": {
+    "url" : "https://github.com/zaciam/cmdline/issues",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  }
+}
