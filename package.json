@@ -1,5 +1,5 @@
 {
-  "name": "cmdline",
+  "name": "cmdline-windows",
   "version": "1.0.0",
   "description": "Node.js addon for retrieving command line from a process ID in Windows",
   "main": "index.js",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/zaciam/cmdline",
   "bugs": {
-    "url" : "https://github.com/zaciam/cmdline/issues",
+    "url" : "https://github.com/zaciam/cmdline/issues"
   },
   "repository": {
     "type": "git",
