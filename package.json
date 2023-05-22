@@ -20,12 +20,12 @@
   "devDependencies": {
     "node-gyp": "^9.3.1"
   },
-  "homepage": "https://github.com/zaciam/cmdline",
+  "homepage": "https://github.com/zaciam/cmdline-windows",
   "bugs": {
-    "url" : "https://github.com/zaciam/cmdline/issues"
+    "url" : "https://github.com/zaciam/cmdline-windows/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/cli.git"
+    "url": "https://github.com/zaciam/cmdline-windows"
   }
 }
