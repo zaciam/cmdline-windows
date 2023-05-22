@@ -1,4 +1,4 @@
-# cmdline
+# cmdline-windows
 
 This is a Node.js addon for retrieving the command line of a process in Windows based on its process ID (PID).
 
