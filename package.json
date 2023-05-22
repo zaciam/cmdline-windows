@@ -1,6 +1,6 @@
 {
   "name": "cmdline-windows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js addon for retrieving command line from a process ID in Windows",
   "main": "index.js",
   "scripts": {
